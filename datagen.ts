@@ -4,6 +4,7 @@ import OpenAI from "openai";
 const URL = 'http://localhost:1234/v1';//'https://api.deepseek.com'
 const KEY = 'lm-studio'; //process.env.DEEPSEEK_API_KEY
 const MODEL ="qwen/qwen3-coder-next"; //"deepseek-chat"
+
 // 初始化 DeepSeek 客户端
 const openai = new OpenAI({
   baseURL: URL,
