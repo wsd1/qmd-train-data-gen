@@ -1,0 +1,13 @@
+{
+  "name": "qmd-test",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "openai": "^6.34.0"
+  }
+}
